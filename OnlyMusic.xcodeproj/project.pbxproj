@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8E5F551DFFA05D0066D4C5 /* bangbangbang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E5F531DFFA02F0066D4C5 /* bangbangbang.mp3 */; };
+		6B8E5F571DFFCA110066D4C5 /* bgimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E5F561DFFCA110066D4C5 /* bgimg.jpg */; };
+		6B8E5F591DFFCE1B0066D4C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E5F581DFFCE1B0066D4C5 /* Images.xcassets */; };
+		6BB5E52B1DFF780E00256C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5E52A1DFF780E00256C6C /* main.m */; };
+		6BB5E52E1DFF780E00256C6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5E52D1DFF780E00256C6C /* AppDelegate.m */; };
+		6BB5E5311DFF780E00256C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5E5301DFF780E00256C6C /* ViewController.m */; };
+		6BB5E5341DFF780E00256C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5E5321DFF780E00256C6C /* Main.storyboard */; };
+		6BB5E5371DFF780E00256C6C /* OnlyMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5E5351DFF780E00256C6C /* OnlyMusic.xcdatamodeld */; };
+		6BB5E53C1DFF780E00256C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5E53A1DFF780E00256C6C /* LaunchScreen.storyboard */; };
+		6BB5E5441DFF786D00256C6C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5E5431DFF786D00256C6C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B8E5F531DFFA02F0066D4C5 /* bangbangbang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bangbangbang.mp3; path = Resources/bangbangbang.mp3; sourceTree = "<group>"; };
+		6B8E5F561DFFCA110066D4C5 /* bgimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bgimg.jpg; path = Resources/bgimg.jpg; sourceTree = "<group>"; };
+		6B8E5F581DFFCE1B0066D4C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BB5E5261DFF780E00256C6C /* OnlyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB5E52A1DFF780E00256C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BB5E52C1DFF780E00256C6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BB5E52D1DFF780E00256C6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BB5E52F1DFF780E00256C6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BB5E5301DFF780E00256C6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BB5E5331DFF780E00256C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB5E5361DFF780E00256C6C /* OnlyMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnlyMusic.xcdatamodel; sourceTree = "<group>"; };
+		6BB5E53B1DFF780E00256C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB5E53D1DFF780E00256C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB5E5431DFF786D00256C6C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB5E5231DFF780E00256C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8E5F501DFF9FFB0066D4C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E5F561DFFCA110066D4C5 /* bgimg.jpg */,
+				6B8E5F531DFFA02F0066D4C5 /* bangbangbang.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BB5E51D1DFF780E00256C6C = {
+			isa = PBXGroup;
+			children = (
+				6BB5E5281DFF780E00256C6C /* OnlyMusic */,
+				6BB5E5271DFF780E00256C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB5E5271DFF780E00256C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5E5261DFF780E00256C6C /* OnlyMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB5E5281DFF780E00256C6C /* OnlyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E5F501DFF9FFB0066D4C5 /* Resources */,
+				6BB5E5431DFF786D00256C6C /* ViewController.xib */,
+				6BB5E52C1DFF780E00256C6C /* AppDelegate.h */,
+				6BB5E52D1DFF780E00256C6C /* AppDelegate.m */,
+				6BB5E52F1DFF780E00256C6C /* ViewController.h */,
+				6BB5E5301DFF780E00256C6C /* ViewController.m */,
+				6BB5E5321DFF780E00256C6C /* Main.storyboard */,
+				6BB5E53A1DFF780E00256C6C /* LaunchScreen.storyboard */,
+				6BB5E53D1DFF780E00256C6C /* Info.plist */,
+				6BB5E5351DFF780E00256C6C /* OnlyMusic.xcdatamodeld */,
+				6B8E5F581DFFCE1B0066D4C5 /* Images.xcassets */,
+				6BB5E5291DFF780E00256C6C /* Supporting Files */,
+			);
+			path = OnlyMusic;
+			sourceTree = "<group>";
+		};
+		6BB5E5291DFF780E00256C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5E52A1DFF780E00256C6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB5E5251DFF780E00256C6C /* OnlyMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB5E5401DFF780E00256C6C /* Build configuration list for PBXNativeTarget "OnlyMusic" */;
+			buildPhases = (
+				6BB5E5221DFF780E00256C6C /* Sources */,
+				6BB5E5231DFF780E00256C6C /* Frameworks */,
+				6BB5E5241DFF780E00256C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlyMusic;
+			productName = OnlyMusic;
+			productReference = 6BB5E5261DFF780E00256C6C /* OnlyMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB5E51E1DFF780E00256C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zte;
+				TargetAttributes = {
+					6BB5E5251DFF780E00256C6C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R575GT62SF;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6BB5E5211DFF780E00256C6C /* Build configuration list for PBXProject "OnlyMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB5E51D1DFF780E00256C6C;
+			productRefGroup = 6BB5E5271DFF780E00256C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB5E5251DFF780E00256C6C /* OnlyMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB5E5241DFF780E00256C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8E5F571DFFCA110066D4C5 /* bgimg.jpg in Resources */,
+				6B8E5F551DFFA05D0066D4C5 /* bangbangbang.mp3 in Resources */,
+				6B8E5F591DFFCE1B0066D4C5 /* Images.xcassets in Resources */,
+				6BB5E53C1DFF780E00256C6C /* LaunchScreen.storyboard in Resources */,
+				6BB5E5441DFF786D00256C6C /* ViewController.xib in Resources */,
+				6BB5E5341DFF780E00256C6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB5E5221DFF780E00256C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB5E5311DFF780E00256C6C /* ViewController.m in Sources */,
+				6BB5E5371DFF780E00256C6C /* OnlyMusic.xcdatamodeld in Sources */,
+				6BB5E52E1DFF780E00256C6C /* AppDelegate.m in Sources */,
+				6BB5E52B1DFF780E00256C6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BB5E5321DFF780E00256C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB5E5331DFF780E00256C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB5E53A1DFF780E00256C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB5E53B1DFF780E00256C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB5E53E1DFF780E00256C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BB5E53F1DFF780E00256C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB5E5411DFF780E00256C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R575GT62SF;
+				INFOPLIST_FILE = OnlyMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatwest.onlymusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BB5E5421DFF780E00256C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R575GT62SF;
+				INFOPLIST_FILE = OnlyMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatwest.onlymusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB5E5211DFF780E00256C6C /* Build configuration list for PBXProject "OnlyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB5E53E1DFF780E00256C6C /* Debug */,
+				6BB5E53F1DFF780E00256C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB5E5401DFF780E00256C6C /* Build configuration list for PBXNativeTarget "OnlyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB5E5411DFF780E00256C6C /* Debug */,
+				6BB5E5421DFF780E00256C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BB5E5351DFF780E00256C6C /* OnlyMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BB5E5361DFF780E00256C6C /* OnlyMusic.xcdatamodel */,
+			);
+			currentVersion = 6BB5E5361DFF780E00256C6C /* OnlyMusic.xcdatamodel */;
+			path = OnlyMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BB5E51E1DFF780E00256C6C /* Project object */;
+}
